@@ -1,0 +1,3 @@
+- insert:
+    - id: viscod-panel
+      name: '@local/viscod-panel'
