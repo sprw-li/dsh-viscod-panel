@@ -93,7 +93,7 @@ Viscod 的本地 Web UI；不需要手动开浏览器、也不需要记住端口
 | --- | --- | --- |
 | `VISCOD_PROJECT_ROOT` | `D:\Dev\Project4-Viscod` | Viscod 项目仓库根目录。插件会把它设为 Viscod 的当前项目；请按自己的实际路径覆盖。 |
 | `VISCOD_PORT` | `7401` | Viscod 本地服务端口。插件探活 `http://127.0.0.1:<PORT>/api/health`，并把同名环境变量传给拉起的服务进程。 |
-| `VISCOD_NODE` | 自动探测 | 拉起 `server/index.ts` 用的 node 可执行文件。探测顺序：`VISCOD_NODE` → DSH 自带运行时里的 node → `D:\App\nodejs\node.exe` → `C:\Program Files\nodejs\node.exe` → 当前进程可执行文件（配合 `ELECTRON_RUN_AS_NODE=1`）。 |
+| `VISCOD_NODE` | 自动探测 | 拉起 `server/index.ts` 用的 node 可执行文件。探测顺序：`VISCOD_NODE` → DSH 自带运行时里的 node → `C:\Program Files\nodejs\node.exe` → 当前进程可执行文件（配合 `ELECTRON_RUN_AS_NODE=1`）。 |
 
 示例（指向自己的 Viscod 仓库、换端口、指定 node）：
 

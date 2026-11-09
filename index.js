@@ -70,7 +70,6 @@ function resolveNode() {
       'bin',
       'node.exe',
     ),
-    'D:\\App\\nodejs\\node.exe',
     'C:\\Program Files\\nodejs\\node.exe',
   ].filter(Boolean)
   for (const candidate of candidates) {
